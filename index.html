@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSnake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-r from-green-400 to-blue-500 min-h-screen flex items-center justify-center text-white">
+    <div class="game-container bg-gray-800 p-10 rounded-lg shadow-lg flex flex-col items-center">
+        <div id="game-over" class="text-center text-2xl hidden">Game Over!</div>
+        <button id="restart-button" class="mt-4 px-4 py-2 bg-green-500 hover:bg-green-600 rounded shadow-lg transition hidden focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-50">Restart Game</button>
+        <h1 class="text-center text-3xl mt-4 font-semibold">Snake Game</h1>
+        <canvas id="game" class="game-board border-4 border-green-500 shadow mt-4"></canvas>
+        <div id="score" class="text-center mt-4 text-xl">Score: 0</div>
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>

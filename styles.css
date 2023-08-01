@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.game-container {
+    width: 760px;
+}
+
+.game-board {
+    background: #222;
+    width: 640px;
+    height: 640px;
+    display: block;
+    margin: 0 auto;
+}
+
+#game-over, #restart-button {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    box-shadow: 0 0 10px #719ECE;
+}
