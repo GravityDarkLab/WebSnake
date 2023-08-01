@@ -1,0 +1,33 @@
+{
+  "name": "web-snake",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple snake game in JavaScript.",
+  "main": "snake.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GravityDarkLab/WebSnake.git"
+  },
+  "author": "GravityDarkLab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GravityDarkLab/WebSnake/issues"
+  },
+  "homepage": "https://gravitydarklab.github.io/WebSnake/",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.2",
+    "jest": "^29.6.2",
+    "jest-environment-node": "^29.6.2",
+    "jsdom": "^22.1.0"
+  }
+}
