@@ -1,4 +1,7 @@
 # WebSnake
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This project is a simple implementation of the classic Snake game using JavaScript, HTML, and CSS.
 
@@ -35,3 +38,25 @@ Contributions are welcome and appreciated! If you have a feature request, bug re
 ## License
 
 This project is licensed under the MIT License. See `LICENSE` for more details.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/GravityDarkLab"><img src="https://avatars.githubusercontent.com/u/101757413?v=4?s=100" width="100px;" alt="Achraf Labidi"/><br /><sub><b>Achraf Labidi</b></sub></a><br /><a href="#projectManagement-GravityDarkLab" title="Project Management">📆</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
